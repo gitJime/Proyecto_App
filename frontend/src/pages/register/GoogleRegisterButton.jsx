@@ -15,7 +15,7 @@ const GoogleRegisterButton = ({ onSuccess, onFailure }) => {
 
   return (
     <GoogleLogin
-      clientId="TU_CLIENT_ID_DE_GOOGLE"
+      clientId="AIzaSyCxXC-q4XcB2R9R4e4LeJ6ELKI6ce9MbZY"
       buttonText="Registrarse con Google"
       onSuccess={responseGoogle}
       onFailure={responseGoogle}

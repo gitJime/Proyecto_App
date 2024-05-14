@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Importa useNavigate en lugar de useHistory
+import { useNavigate } from "react-router-dom"; 
 import axios from "axios";
 import "./register.scss";
 
@@ -8,7 +8,7 @@ export default function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [username, setUsername] = useState("");
-  const navigate = useNavigate(); // Usa useNavigate en lugar de useHistory
+  const navigate = useNavigate();
 
   const emailRef = useRef();
   const passwordRef = useRef();
